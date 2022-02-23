@@ -3,7 +3,7 @@ $ 1 0.000005 10.634267539816555 50 5 50 5e-11
 w 208 112 320 112 0
 r 320 192 320 304 0 1200
 w 320 336 320 352 0
-f 16 432 224 432 0 1.5 0.02
+f 112 320 320 320 0 1.5 0.02
 R 208 112 160 112 0 0 40 5 0 0 0.5
 g 320 352 320 368 0 0
 418 112 320 64 320 0 1 40 5 0 0 0.5 pin\s4
@@ -36,11 +36,21 @@ w 432 304 384 304 0
 w 384 304 368 304 0
 w 368 304 352 304 0
 w 320 304 352 304 0
-s 320 304 320 336 0 0 false
+s 432 352 432 384 0 0 false
 x 44 17 335 20 4 10 SPST\ssubstitution\sfor\sthe\sFET\spulls\s2\smA\sextra\s(22\smA\svs\s20\sma).
 x 47 45 309 48 4 10 The\sLEDs\spull\smore\sor\sless\sdepending\son\show\smany\sare\slit.
 
 #endif // circuit diagram
+
+#if 0
+
+ uri:
+
+ https://www.falstad.com/circuit/avr8js/
+
+#endif // uri
+
+// source code:
 
 #define FET_ON_OFF 4
 
